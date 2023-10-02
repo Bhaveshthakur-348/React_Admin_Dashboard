@@ -20,7 +20,8 @@ interface DataRow {
 
 type Props = {
   columns: GridColDef[];
-  rows: DataRow[]; 
+  rows: any; 
+  
   slug: string;
 };
 
